@@ -1,0 +1,53 @@
+# Robots.txt - SEO Configuration
+
+# Allow all search engines to crawl everything
+User-agent: *
+Allow: /
+
+# Specific rules for Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing Bot
+User-agent: Bingbot
+Allow: /
+
+# Allow AI Crawlers (ChatGPT, Claude, etc.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Allow other common AI bots
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Block bad bots (spam scrapers)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

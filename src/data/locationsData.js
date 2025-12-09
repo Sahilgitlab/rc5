@@ -1,0 +1,35 @@
+export const locationsData = [
+    {
+        id: "loc-1",
+        name: "Downtown Hub",
+        area: "Downtown",
+        address: "123 Main Street, City Center",
+        city: "Metropolis",
+        contactNumber: "+91 8779667606",
+        hours: "Mon-Sun: 7am - 9pm",
+        googleMapsUrl: "https://goo.gl/maps/example1",
+        googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus",
+    },
+    {
+        id: "loc-2",
+        name: "Westside Lounge",
+        area: "West End",
+        address: "456 West Avenue, Arts District",
+        city: "Metropolis",
+        contactNumber: "+91 8779667606",
+        hours: "Mon-Fri: 8am - 10pm, Sat-Sun: 9am - 11pm",
+        googleMapsUrl: "https://goo.gl/maps/example2",
+        googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.6335345719!2d-73.99616338426!3d40.735492979328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a2d8d8c973%3A0x9d5e3c8000f0a0!2sGreenwich%20Village!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus",
+    },
+    {
+        id: "loc-3",
+        name: "Riverside Cafe",
+        area: "North Side",
+        address: "789 River Road, Waterfront District",
+        city: "Metropolis",
+        contactNumber: "+91 8779667606",
+        hours: "Mon-Thu: 7am - 9pm, Fri-Sun: 7am - 11pm",
+        googleMapsUrl: "https://goo.gl/maps/example3",
+        googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9540974812177!2d-74.00594368482419!3d40.74844097932766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus",
+    }
+];
